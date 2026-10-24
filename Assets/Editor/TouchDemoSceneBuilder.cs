@@ -361,7 +361,8 @@ public static class TouchDemoSceneBuilder
         info = Label("Apartment Info", page, "", 28, MutedText, FontStyle.Normal, TextAnchor.UpperLeft);
         info.horizontalOverflow = HorizontalWrapMode.Wrap;
         info.lineSpacing = 1.2f;
-        Place(info.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(640f, 70f), new Vector2(500f, 140f));
+        // Below the two-line title ("2 BHK" + building name).
+        Place(info.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(640f, 35f), new Vector2(500f, 140f));
 
         back = TextButton("Back Button", page, "‹  BACK", new Vector2(0.5f, 0.5f), new Vector2(640f, -120f), new Vector2(500f, 110f));
         home = TextButton("Home Button", page, "HOME", new Vector2(0.5f, 0.5f), new Vector2(640f, -250f), new Vector2(500f, 110f));

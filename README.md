@@ -9,6 +9,46 @@ Inside an apartment, a live preview on Display 1 lets visitors **swipe to look a
 
 Built with **Unity 6000.6**, **URP** (Forward+), **Cinemachine**, the **Input System** and **uGUI**.
 
+![Idle overview](Docs/Screenshots/01-idle-overview-day.jpg)
+
+## Screenshots
+
+### Display 1: touch control panel
+
+| Choose a building | Choose an apartment | Swipe to look around |
+|---|---|---|
+| ![](Docs/Screenshots/15-panel-1-choose-building.jpg) | ![](Docs/Screenshots/16-panel-2-choose-apartment.jpg) | ![](Docs/Screenshots/17-panel-3-look-around.jpg) |
+
+### Display 2: 3D preview
+
+| Azure Tower | Terrace Center | Helix Tower |
+|---|---|---|
+| ![](Docs/Screenshots/02-building-1-azure-tower.jpg) | ![](Docs/Screenshots/03-building-2-terrace-center.jpg) | ![](Docs/Screenshots/04-building-3-helix-tower.jpg) |
+
+### Apartment interiors, with a different theme per building
+
+| | 1 BHK | 2 BHK |
+|---|---|---|
+| **Azure Tower: Luxury** | ![](Docs/Screenshots/06-interior-azure-tower-1bhk.jpg) | ![](Docs/Screenshots/07-interior-azure-tower-2bhk.jpg) |
+| **Terrace Center: Warm natural** | ![](Docs/Screenshots/08-interior-terrace-center-1bhk.jpg) | ![](Docs/Screenshots/09-interior-terrace-center-2bhk.jpg) |
+| **Helix Tower: Industrial loft** | ![](Docs/Screenshots/10-interior-helix-tower-1bhk.jpg) | ![](Docs/Screenshots/11-interior-helix-tower-2bhk.jpg) |
+
+### Night mode, window view and the city
+
+| Night | Helix Tower at night |
+|---|---|
+| ![](Docs/Screenshots/13-idle-overview-night.jpg) | ![](Docs/Screenshots/14-helix-tower-night.jpg) |
+
+| View from a 2 BHK window | Park and plaza |
+|---|---|
+| ![](Docs/Screenshots/12-window-view.jpg) | ![](Docs/Screenshots/05-park-and-plaza.jpg) |
+
+Display 2 shows the same frame as the panel's live preview, with a caption:
+
+![Display 2 inside an apartment](Docs/Screenshots/18-display-2-apartment.jpg)
+
+> Screenshots include the optional Asset Store packs (NYC buildings and trees). Without them, the city uses procedural buildings and trees.
+
 ## Features
 
 - Central state machine with three states: Idle, BuildingView, ApartmentView.
