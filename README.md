@@ -59,6 +59,11 @@ Display 2 shows the same frame as the panel's live preview, with a caption:
 - A procedural city: textured facades, a street grid, cars, a park, street lights, lit windows at night, and reflections.
 - Multi-display setup, with a side-by-side fallback when only one monitor is connected.
 
+## Requirements
+
+- Unity **6000.6** or newer, with URP.
+- For kiosk use: a Windows PC with two displays. The lower one is a touch screen (Display 1) and the upper one is a large screen (Display 2). On a single monitor, both views run side by side.
+
 ## Getting started
 
 1. Clone the repo and open the folder in **Unity 6000.6** (Unity Hub → Add project from disk). Packages (URP, Cinemachine, Input System) are restored automatically.
